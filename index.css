@@ -1,0 +1,16 @@
+html,body
+    {
+      background:url("http://twibbon.s3.amazonaws.com/238/63bb30c8-2649-465e-9df1-ab2f8e5f7ecc.jpg");
+      background-repeat:repeat;
+      background-attachment: scroll;
+      position:absolute;
+      left:0;
+      top:0;
+      animation: slideshow 10s linear infinite;
+    }
+    @keyframes slideshow
+    {
+      0% {top:0;}
+      100% {top:-200%;}
+      
+    }
