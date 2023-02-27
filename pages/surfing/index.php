@@ -49,7 +49,7 @@ $anonymize = true;
 
 //Start/default URL that that will be proxied when miniProxy is first loaded in a browser/accessed directly with no URL to proxy.
 //If empty, miniProxy will show its own landing page.
-$startURL = "";
+$startURL = "http://google.com/";
 
 //When no $startURL is configured above, miniProxy will show its own landing page with a URL form field
 //and the configured example URL. The example URL appears in the instructional text on the miniProxy landing page,
