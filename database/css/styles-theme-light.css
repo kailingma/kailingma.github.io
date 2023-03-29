@@ -1,0 +1,63 @@
+/*
+// Simple File List Pro - Copyright 2022
+// Author: Mitchell Bennis | support@simplefilelist.com | https://simplefilelist.com
+// License: EULA | https://simplefilelist.com/end-user-license-agreement/
+// All changes to, modifications to, or re-uses of this script are prohibited without prior consent.
+*/
+
+.eePickerThingy { color: rgba(218, 218, 220, 0.8); }
+
+.eeSFL,
+#eeSFL_UploadForm {
+	
+	/* 	THEME - LIGHT */
+	/* 	Light grey solids, borders with dark text */
+	
+	/* 	https://html-color.codes/grey */
+	/* 	Theme text and background colors are generally honered */
+	
+/* 	--ee-hack-to-make-first-rule-work: #000; */
+	/* 	First rule seems to be ignored ? */
+	
+	
+	/* 	COMMON */
+	--ee-color-text-input-background: #efefef;
+	--ee-color-action-link-text: #333;
+	--ee-color-action-link-text-hover: #FFF;
+	--ee-color-action-link-background: rgba(220, 220, 220, .8); 
+	--ee-color-action-link-background-hover: rgba(97, 97, 97, 1);
+	
+	
+	/* UPLOAD FORM - LIGHT */
+	--ee-color-upload-form-background: rgba(255, 255, 255, 0.2);
+	--ee-color-upload-progress-bar: #23e100;
+	--ee-color-drop-zone-border: #c7c7c7;
+	--ee-color-upload-progress-text: #FFF;
+	--ee-color-upload-progress-background: #23e100;
+	
+	
+	/* 	TABLE */
+	--ee-color-table-background: transparent;
+	--ee-color-table-border: #DCDCDC;
+	--ee-color-table-header-background: #d9d9db;
+	--ee-color-table-header-text: #333;
+	--ee-color-table-row-background: rgba(255, 255, 255, 0.2);
+	--ee-color-table-row-background-hover: rgba(244, 244, 244, 0.3);
+	
+	
+	/* TILES */
+	--ee-color-tile-filename-text: #FFF;
+	--ee-color-tile-border: #DCDCDC;
+	--ee-color-tile-header-background: #e9e9ee;
+	--ee-color-tile-background: rgba(224, 225, 235, 0.2);
+	
+	
+	/* FLEX */
+	--ee-color-flex-border: #DCDCDC;
+	--ee-color-flex-background: rgba(224, 225, 235, 0.2);
+	--ee-color-flex-file-background: rgba(224, 225, 235, 0.2);
+
+
+	
+	
+}

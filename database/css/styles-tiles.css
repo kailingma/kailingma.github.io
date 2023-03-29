@@ -1,0 +1,109 @@
+/*
+// Simple File List Pro - Copyright 2022
+// Author: Mitchell Bennis | support@simplefilelist.com | https://simplefilelist.com
+// License: EULA | https://simplefilelist.com/end-user-license-agreement/
+// All changes to, modifications to, or re-uses of this script are prohibited without prior consent.
+*/
+
+
+/* Tiles Container */
+.eeSFL section.eeFiles {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	font-size: 14px;
+}
+
+.eeSFL article.eeSFL_Tile {
+	flex: 1 0 29%;
+	min-width: 0;
+	margin: 0 1% 1em 1%;
+	padding: 0 0 1% 0;
+	background-color: var(--ee-color-tile-background);
+	text-align: center;
+	border: 1px solid var(--ee-color-tile-border);
+}
+
+.eeSFL article.eeSFL_Tile h4 {
+	margin: 0 0 .5em 0;
+	padding: .5em;
+	font-weight: bold;
+	font-size: 1.2em;
+	background-color: var(--ee-color-tile-header-background);
+}
+.eeSFL article.eeSFL_Tile h4 a {
+	text-decoration: none;
+	color: var(--ee-color-tile-filename-text);
+}
+.eeSFL article.eeSFL_Tile p {
+	margin: .25em 0;
+}
+
+.eeSFL article.eeSFL_Tile small.eeSFL_ListFileActions {
+	display: block;
+	width: 100%;
+	margin-bottom: .5em;
+	line-height: 2;
+}
+.eeSFL article.eeSFL_Tile small.eeSFL_ListFileActions a {
+	white-space: nowrap;
+	display: inline-block;
+	color: var(--ee-color-action-link-text);
+	background-color: var(--ee-color-action-link-background);
+	padding: .1em .3em;
+	margin: 0 .33em .5em 0;
+	text-decoration: none;
+}
+.eeSFL article.eeSFL_Tile small.eeSFL_ListFileActions a:hover {
+	color: var(--ee-color-action-link-text-hover);
+	background-color: var(--ee-color-action-link-background-hover);
+}
+
+.eeSFL article.eeSFL_Tile div.eeSFL_Thumbnail a {
+	text-decoration: none;
+}
+.eeSFL article.eeSFL_Tile div.eeSFL_Thumbnail img {
+	width: 64px;
+	height: auto;
+}
+.eeSFL article.eeSFL_Tile div.eeSFL_Thumbnail img:hover {
+	box-shadow: 2px 2px 3px 3px rgba(69, 69, 69, 0.72);
+}
+
+.eeSFL article.eeSFL_Tile .eeSFL_FileDetails {
+	padding: .25em 0;
+	margin-top: .25em;
+	border-top: 1px solid var(--ee-color-tile-border);
+}
+
+.eeSFL article.eeSFL_Tile .eeSFL_FileDetails .eeSFL_FileSize,
+.eeSFL article.eeSFL_Tile .eeSFL_FileDetails .eeSFL_FileDate {
+	display: inline-block;
+	margin: 0 .5em;
+}
+
+
+/* SMALL SCREEN STYLES */
+@media (max-width: 40em) { /* Would be nice to know the width of .eeSFL */
+
+	.eeSFL section.eeFiles {
+		display: block;
+	}
+	
+	.eeSFL article.eeSFL_Tile h4 {
+		font-size: 1.75em;
+		white-space: normal;
+		margin-bottom: 1em;	
+	}
+	
+	.eeSFL article.eeSFL_Tile small.eeSFL_ListFileActions a {
+		font-size: 1.5em;
+		padding: .25em .5em;
+		margin: 0 .5em .75em 0;	
+	}
+	
+
+}
