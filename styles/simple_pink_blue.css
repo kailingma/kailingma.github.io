@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    margin: 15%;
+    background-color: #BEA2C2;
+}
+.mainDiv{
+    background-color: #BDADEA;
+    margin: 15%;
+    text-align: inherit;
+    border: 5px solid #4381C1;
+    border-radius: 11px;
+    padding-top: 5%;
+    padding-right: 30px;
+    padding-bottom: auto;
+    padding-left: 80px;
+}
+  
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #b4a0eb;
+  
+}
+  
+td, th {
+    border: 1px solid #6d6d6d;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #c5b4f1;
+}
+  
+  
