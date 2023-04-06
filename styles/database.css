@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    margin: 10%;
+    background-color: #BEA2C2;
+  }
+  .filesDiv{
+    background-color: #BDADEA;
+    margin: 7%;
+    text-align: inherit;
+    border: 5px solid #4381C1;
+    border-radius: 11px;
+    padding-top: 15px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+  }
+  
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #b4a0eb;
+  
+  }
+  
+  td, th {
+    border: 1px solid #6d6d6d;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #c5b4f1;
+  }
+  
+  .icons {
+    height: 24px;
+    width: 24px;
+  }
+  
