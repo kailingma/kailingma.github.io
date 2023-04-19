@@ -33,6 +33,10 @@ tr:nth-child(even) {
     background-color: #c5b4f1;
 }
 
+select {
+    
+}
+
 .button-3 {
     appearance: none;
     background-color: #2ea44f;
