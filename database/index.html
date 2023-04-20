@@ -10,16 +10,16 @@
 <h1>The database</h1>
 <div class="filesDiv">
 <!-- The files div -->
-<iframe id="myFrame" src="https://www.example.com"></iframe>
+<iframe id="myFrame" src="database/.dir-list.html"></iframe>
 <button class="button3" onclick="switchSrc()">Switch</button>
 
 <script>
 	function switchSrc() {
 		var iframe = document.getElementById("myFrame");
-		if (iframe.src === ".dir-list.html") {
-			iframe.src = ".dir-list-2.html";
+		if (iframe.src === "database/.dir-list.html") {
+			iframe.src = "database/.dir-list-2.html";
 		} else {
-			iframe.src = ".dir-list.html";
+			iframe.src = "database/.dir-list.html";
 		}
 	}
 </script>
