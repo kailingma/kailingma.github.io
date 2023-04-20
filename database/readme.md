@@ -1,5 +1,6 @@
 # the database
 ## run the folowing command to update
+<<<<<<< HEAD
 open a new terminal, type
 ```
 cd database/
@@ -27,3 +28,6 @@ options:
   --verbose, -v         ***WARNING: can take longer time with complex file tree structures on slow terminals*** verbosely list every
                         processed file
 ```
+=======
+python .generate_directory_index.py --filter "generate_directory_index.py" --recursive
+>>>>>>> 93f25c4863dcef5d07fb3c82c3f1146498c8e836
