@@ -10,13 +10,13 @@
 <h1>The database</h1>
 <div class="filesDiv">
 <!-- The files div -->
+<button onclick="switchSrc()">Switch</button>
 <iframe id="myFrame" src="dirlist.html"></iframe>
-<button class="button-3" onclick="switchSrc()">Switch</button>
 
 <script>
 	function switchSrc() {
 		var iframe = document.getElementById("myFrame");
-		if (iframe.src == "dirlist.html") {
+		if (iframe.src === "dirlist.html") {
 			iframe.src = "dirlist2.html";
 		} else {
 			iframe.src = "dirlist.html";
