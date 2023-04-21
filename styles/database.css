@@ -1,7 +1,8 @@
 body {
   text-align: center;
-  margin: 10%;
+  margin: 5%;
   background-color: #BEA2C2;
+  overflow: hidden;
 }
 .filesDiv{
   background-color: #BDADEA;
