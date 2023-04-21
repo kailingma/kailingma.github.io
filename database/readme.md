@@ -3,7 +3,7 @@
 open a new terminal, type
 ```
 cd database/
-python .generate_directory_index.py -o .dir-list.html -r
+python .generate_directory_index.py -o dirlist.html -r
 ```
 and for future reference, here's the help:
 ```
