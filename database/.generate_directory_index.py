@@ -53,6 +53,7 @@ def process_dir(top_dir, opts):
     index_file.write("""<!DOCTYPE html>
 <html>
 <head>
+    <base target="_parent">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>

@@ -1,8 +1,8 @@
 body {
   text-align: center;
-  margin: 5%;
   background-color: #BEA2C2;
   overflow: hidden;
+  height: 100%;
 }
 .filesDiv{
   background-color: #BDADEA;
