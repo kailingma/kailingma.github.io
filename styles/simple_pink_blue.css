@@ -37,29 +37,20 @@ tr:nth-child(even) {
     background-color: #c5b4f1;
 }
 
-ul li {
+select option {
     display:inline-block;
     background-color: #309171;
 }
 
-ul ul {
+option {
     display: none;
     position: absolute; 
 }
 
-ul li:hover > ul {
+select:hover > ul {
     display:inherit;
 }
 
-ul ul li {
-    width:170px;
-    float:none;
-    display:list-item;
-    position: relative;
-}
-
-li > a:after { content:  ' +'; }
-li > a:only-child:after { content: ''; }
 
 .button-3 {
     appearance: none;
