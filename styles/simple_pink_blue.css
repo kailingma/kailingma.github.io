@@ -3,6 +3,8 @@ body {
     margin: 15%;
     background-color: #BEA2C2;
 }
+
+
 .mainDiv{
     background-color: #BDADEA;
     margin: 15%;
@@ -13,6 +15,8 @@ body {
     padding-right: 30px;
     padding-bottom: auto;
     padding-left: 80px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
   
 table {
