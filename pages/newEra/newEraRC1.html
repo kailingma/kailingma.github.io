@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/styles/newEraRC1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <title>Collapsible Menu with Navigation Bar</title>
+</head>
+<body>
+
+<!-- Hamburger menu button -->
+<div id="menu-btn">&#9776;</div>
+
+<!-- Navigation menu -->
+<ul id="nav-menu">
+    <li>
+        <a href="#v" class="show">Home</a>
+    </li>
+    <li>
+        <a href="#" class="show">About</a>
+    </li>
+    <li>
+        <a href="#" class="show">Contact</a>
+    </li>
+</ul>
+
+<script>
+    // JavaScript to toggle the visibility of the navigation menu on mobile
+    document.getElementById("menu-btn").addEventListener("click", function() {
+        var navMenu = document.getElementById("nav-menu");
+        var menuItems = navMenu.getElementsByTagName("li");
+
+        for (var i = 0; i < menuItems.length; i++) {
+            menuItems[i].classList.toggle("show");
+        }
+    });
+</script>
+<div id="content">
+    <h1>Testing</h1>
+    <p>fetgwg</p>
+    
+    <p>hello</p>
+</div>
+</body>
+</html>
